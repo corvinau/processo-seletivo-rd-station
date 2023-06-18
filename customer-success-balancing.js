@@ -1,5 +1,5 @@
 /**
- * Retorna um array filtrado e ordenado com os customer cuccess disponíveis
+ * Retorna um array filtrado e ordenado com os customer success disponíveis
  * @param {array} customerSuccess
  * @param {array} customerSuccessAway
  */
