@@ -1,5 +1,5 @@
 /**
- * Returns a filtered and sorted array of available Customer Success
+ * Retorna um array filtrado e ordenado com os customer cuccess disponíveis
  * @param {array} customerSuccess
  * @param {array} customerSuccessAway
  */
@@ -11,8 +11,8 @@ function customerSuccessDisponiveis(customerSuccess, customerSuccessAway) {
 }
 
 /**
- * Returns an array with the distribution of Customer Success Available and
- * customers based on their scores
+ * Retorna um array com a distribuição de clientes por customer success
+ * disponpivel baseados nos seus scores
  * @param {array} cssDisponiveis
  * @param {array} customers
  */
@@ -35,7 +35,8 @@ function distribuicaoDosClientes(cssDisponiveis, customers) {
 }
 
 /**
- * Returns the id of the Customer Success with the most customers
+ * Retorna o id do customer success com mais clientes e verifica se houve algum
+ * empate
  * @param {array} balanceamentoDeClientes
  */
 function customerSuccessComMaisClientes(balanceamentoDeClientes) {
@@ -59,8 +60,8 @@ function customerSuccessComMaisClientes(balanceamentoDeClientes) {
 }
 
 /**
- * Calls the other functions and show the id of the Customer Success with the
- * most customers
+ * Chamas as funções complemetares e mostra o id do customer success com mais
+ * clientes no console
  * @param {array} customerSuccess
  * @param {array} customers
  * @param {array} customerSuccessAway
