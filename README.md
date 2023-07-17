@@ -26,7 +26,7 @@ npm test
 
 ---
 
-## Explicação do desafio - RD Challenge
+## Explicação do desafio - [RD Challenge](https://tech.rdstation.com/)
 
 ## Nossas expectativas
 
